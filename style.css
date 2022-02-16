@@ -43,7 +43,7 @@ body {
   line-height: 24px;
   margin-left: 119px;
 
-  color: #d4ccb6;
+  color: #afb6c2;
 }
 
 .login {
@@ -66,5 +66,60 @@ body {
   font-size: 16px;
   line-height: 24px;
 
-  color: #d4ccb6;
+  color: #afb6c2;
+}
+
+.fields {
+  width: 240px;
+  height: 100px;
+}
+.fields input {
+  font-size: 1rem;
+  width: 335px;
+  height: 44px;
+  padding-left: 40px;
+  margin-top: 2px;
+  border-radius: 4px;
+  border: 1px solid #afb6c2;
+  box-sizing: border-box;
+}
+
+#email {
+  background: url(./images/mailgray.svg) no-repeat;
+  background-position: 0px;
+}
+
+#pwd {
+  background: url(./images/lockgray.svg) no-repeat;
+  background-position: 0px;
+}
+
+.input-actions a {
+  margin-left: 150px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffc632;
+}
+
+.input-actions input {
+  width: 960px;
+  margin: 0 auto;
+}
+
+label span {
+  width: 81px;
+  height: 19px;
+  left: 221px;
+  top: 530px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: hsla(218, 10%, 69%, 1);
 }
