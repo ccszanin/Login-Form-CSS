@@ -16,45 +16,66 @@
   </head>
 
   <body>
-    <header>
-      <img src="./images/logo.svg" alt="Logo" />
-    </header>
+    <div class="content-container">
+      <!-- <header>
+        <img src="./images/logo.svg" alt="Logo" />
+      </header> -->
 
-    <main class="container">
-      <div class="description">
-        <h1>
-          <img src="./images/log-in.svg" alt="imagem de login" />
-          <span>Faça seu login</span>
-        </h1>
-        <p>Entre com suas informações de cadastro.</p>
-      </div>
-        
-          <div class="login">
-            <div class="fields">
-              
-              <h2>E-mail</h2>
-              <label><input type="email" maxlength="30" name="email" id="email" placeholder="Digite seu e-mail" 
-                 ></label>
-              <br>
-              <br>
-              <h2>Senha</h2>
-              <label><input type="password" maxlength="16" name="pwd" id="pwd" placeholder="Digite sua senha" ></label>
-            </div>
-               
-            <div class="input-actions">
-              <p>
-                <input type="checkbox" id="lembrar" />
-                <label for="lembrar">Lembra-me</label>
-              </p>
-              <a href="https://twitter.com/carlacristine_" target="_blank"> Esqueci minha senha</a>
-            </div>
-            
+      <main class="container">
+        <div class="description">
+          <h1>
+            <img src="./images/log-in.svg" alt="imagem de login" />
+            <span>Faça seu login</span>
+          </h1>
+          <p>Entre com suas informações de cadastro.</p>
+        </div>
+
+        <div class="login">
+          <div class="fields">
+            <h2>E-mail</h2>
+            <label
+              ><input
+                type="email"
+                maxlength="30"
+                name="email"
+                id="email"
+                placeholder="Digite seu e-mail"
+            /></label>
+            <br />
+            <br />
+            <h2>Senha</h2>
+            <label
+              ><input
+                type="password"
+                maxlength="16"
+                name="pwd"
+                id="pwd"
+                placeholder="Digite sua senha"
+            /></label>
           </div>
-          
-      
 
-      </div>
+          <div class="function">
+            <input type="checkbox" id="test2" value="lembre" />
+            <label for="test2">Lembre-me</label>
 
-    </main>
+            <a href="https://twitter.com/carlacristine_" target="_blank">
+              Esqueci minha senha</a
+            >
+            <button>ENTRAR</button>
+          </div>
+          <div class="register">
+            <p>
+              Não tem uma conta?<a
+                href="https://twitter.com/carlacristine_"
+                target="_blank"
+              >
+                Registre-se</a
+              >
+            </p>
+          </div>
+        </div>
+      </main>
+      <img class="imagem" src="./images/side-image.jpg" />
+    </div>
   </body>
 </html>
